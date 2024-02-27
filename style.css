@@ -48,13 +48,14 @@ body {
 }
 
 #homePic {
-  height: 35vw;
-  width: 30vw;
+  height: 300px;
+  width: 250px;
   float: right;
 }
 
 #homeimage {
   float: right;
+  margin-left: 2vw;
 }
 
 h1 {
@@ -68,7 +69,7 @@ main {
 }
 
 #quote {
-  margin-top: 400px;
+  margin-top: 300px;
   text-align: center;
   font-size: 35px;
   font-family: cursive;
@@ -96,3 +97,4 @@ footer .media-link {
 .media-link {
   padding-right: 3vw;
 }
+
