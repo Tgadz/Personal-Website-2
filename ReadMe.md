@@ -1,0 +1,1 @@
+This is my personal website assignment for fullstack university. -dont judge me on my poor artistic abilities please.
