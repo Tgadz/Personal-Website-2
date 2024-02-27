@@ -32,7 +32,7 @@ header {
 #name {
   justify-content: space-between;
   float: right;
-  margin-left: 800px;
+  margin-left: 60%;
   color: aliceblue;
   font-size: 30px;
 }
@@ -43,7 +43,7 @@ html {
 
 body {
   background-color: deepskyblue;
-  max-width: 1000px;
+  max-width: 60%;
   margin: 0 auto;
 }
 
@@ -122,10 +122,33 @@ section {
 }
 
 p {
-  display: flex;
   margin-top: 0;
+  text-align: justify;
 }  
 
 #abouth1 {
   text-align: center;
+}
+
+.portfolioimg {
+  height: 60%;
+  width: 50%;
+  float: right;
+  margin: 0 0 0 1vw;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.portfolioh2 {
+  text-align: center;
+  text-decoration: underline;
+  justify-content: center;
+  width: 100%;
+}
+
+#portfolioh1 {
+  width: auto;
+  text-align: center;
+  border-bottom: 3px solid blanchedalmond;
+  margin: 2vw;
 }
