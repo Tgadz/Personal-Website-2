@@ -98,3 +98,34 @@ footer .media-link {
   padding-right: 3vw;
 }
 
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 3px;
+  border-style: double;
+  margin: 1vw;
+  padding: 1vw;
+}
+
+.aboutImage {
+  height: 150px;
+  width: 125px;
+  float: right;
+  margin: 1vw 1vw 0 1vw;
+}
+
+.abouth2 {
+  text-align: center;
+  width: 100%;
+  text-decoration: underline;
+}
+
+p {
+  display: flex;
+  margin-top: 0;
+}  
+
+#abouth1 {
+  text-align: center;
+}
