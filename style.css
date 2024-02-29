@@ -8,6 +8,7 @@ nav {
   left: 0;
   right: 0;
   top: 0;
+  max-height: 100px;
 }
 
 .navbar {
@@ -15,26 +16,30 @@ nav {
   background-color: bisque;
   width: auto;
   text-decoration: none;
-  font-size: 25px;
+  font-size: auto;
   color: black;
+  position: relative;
 }
 
 .navbar:hover {
   background-color: goldenrod;
+  transition: 500ms;
 }
 
 header {
   height: 75px;
   padding: 5px;
   margin: 0;
+  margin-bottom: 1rem;
+  width: 100%;
 }
 
 #name {
-  justify-content: space-between;
   float: right;
-  margin-left: 60%;
+  margin-left: 5rem;
   color: aliceblue;
-  font-size: 30px;
+  font-size: 2rem;
+  position: relative;
 }
 
 html {
@@ -78,15 +83,14 @@ main {
 footer {
   background-color: black;
   width: 100%;
-  left: 0;
-  right: 0;
   text-align: center;
-  height: 75px;
-  margin: 0;
+  height: 50px;
   position: fixed;
+  margin: 0;
+  bottom: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  max-height: 100px;
 }
 
 footer .media-link {
@@ -95,7 +99,13 @@ footer .media-link {
 }
 
 .media-link {
-  padding-right: 3vw;
+  padding-right: 1vw;
+  padding-left: 1vw;
+}
+
+.media-link:hover {
+  background-color: darkorchid;
+  transition: .5s;
 }
 
 section {
@@ -106,6 +116,7 @@ section {
   border-style: double;
   margin: 1vw;
   padding: 1vw;
+  height: auto;
 }
 
 .aboutImage {
@@ -124,6 +135,7 @@ section {
 p {
   margin-top: 0;
   text-align: justify;
+  text-size-adjust: 80%;
 }  
 
 #abouth1 {
@@ -131,8 +143,8 @@ p {
 }
 
 .portfolioimg {
-  height: 60%;
-  width: 50%;
+  height: 300px;
+  width: 250px;
   float: right;
   margin: 0 0 0 1vw;
   border-radius: 50%;
@@ -151,4 +163,39 @@ p {
   text-align: center;
   border-bottom: 3px solid blanchedalmond;
   margin: 2vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+#contactH1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+button {
+  width: 4rem;
+  text-align: center;
+  margin-left: 46%;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: darkslategray;
+  transition: 500ms;
+  color: beige;
+}
+
+#successH1 {
+  text-align: center;
+}
+
+#successH1:hover {
+  color: fuchsia;
+  background-color: limegreen;
+  transition: 5s;
 }
